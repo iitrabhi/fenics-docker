@@ -47,7 +47,7 @@ cd Docker
 docker build --target notebook -t fenics_notebook .
 ```
 
-Note: you should replace the variable `/path/to/this/repo` with the path of the folder that contains the Dockerfile. e.g. If  `D:\Codes\fenics-docker-master `contains your code then to start the command line interface you have to run: `cd D:\Codes\fenics-docker-master`
+Note: you should replace the variable `/path/to/this/repo` with the path of the folder that contains the Dockerfile. e.g. If  `D:\Codes\fenics-docker-master `contains your code then you have to run: `cd D:\Codes\fenics-docker-master`
 
 ## Running
 
