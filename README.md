@@ -46,7 +46,7 @@ docker run -v host_system_path:/root/ -w /root/ -it fenics
 To start the notebook use:
 
 ```
-docker run -p 8888:8888 -v host_system_path:/root/ -w /root/ fenics_notebook:latest
+docker run -p 8888:8888 -v host_system_path:/root/ -w /root/ fenics_notebook
 ```
 
 Note: you should replace the variable `host_system_path` with the path of the folder that contains your code. e.g. If  `D:\Codes` contains your code then to start the command line interface you have to run:
