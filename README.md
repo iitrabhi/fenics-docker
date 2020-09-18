@@ -1,6 +1,6 @@
 # Installing FEniCS on Docker in MAC/Windows.
 
-This repository contains the docker script containing all the dependencies that are necessary to carry out simulations using FEniCS at CMLab, Indian Institute of Technology Roorkee, India. Download the zip file by clicking on the green `Code` button above and then follow these instructions.
+This repository contains the docker script containing all the dependencies that are necessary to carry out simulations using FEniCS at CMLab, Indian Institute of Technology Roorkee, India. Download the zip file by clicking on the green `Code` button above and then follow these instructions. If you have never worked with terminal then I would suggest you first go through this [video](https://www.youtube.com/watch?v=5XgBd6rjuDQ).
 
 ## Getting Started
 
