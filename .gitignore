@@ -1,0 +1,15 @@
+*.txt
+*.xdmf
+*.h5
+*.csv
+*.msh
+*.vsz
+*.afdesign
+*__pycache__/
+.cache/
+.local/
+.ipython/
+.config/
+.git/
+.jupyter/
+
