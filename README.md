@@ -24,6 +24,7 @@ These commands will just install FEniCS on your system and for all the other dep
 To follow along with the examples you need to install docker on your system. You need Windows 10 Education or Professional for this to work. This does not work on Windows 10 Home.
 
 * [Docker](https://www.docker.com/products/docker-desktop)
+* [Paraview](https://www.paraview.org/download/)
 * [CMDER](https://cmder.net/) (Only for Windows)
 
 After installation open `cmder` and then go-to Settings(Win+Alt+P)➡import and choose the `cmlab.xml` provided in the repository.
