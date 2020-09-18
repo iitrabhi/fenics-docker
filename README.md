@@ -6,6 +6,19 @@ This repository contains the docker script containing all the dependencies that 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
+## Installation on Linux
+
+To install in Linux simply run the following commands in terminal:
+
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:fenics-packages/fenics
+sudo apt-get update
+sudo apt-get install --no-install-recommends fenics
+```
+
+These commands will just install FEniCS on your system and for all the other dependencies you have to do manual installation.
+
 ### Prerequisites
 
 To follow along with the examples you need to install docker on your system. You need Windows 10 Education or Professional for this to work. This does not work on Windows 10 Home.

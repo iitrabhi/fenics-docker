@@ -30,6 +30,7 @@ ENV PATH=/usr/local/gmsh-${GMSH_VERSION}-Linux64/bin:$PATH
 
 RUN pip install --upgrade pip
 RUN pip install sphinx
+
 # RUN pip3 install --no-cache-dir --no-binary=h5py h5py pygmsh
 RUN pip3 install h5py
 RUN pip3 install --no-cache-dir meshio==3.2.7
