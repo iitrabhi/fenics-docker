@@ -9,6 +9,13 @@ COPY .bashrc /home/fenics
 ARG GMSH_VERSION
 WORKDIR /tmp
 
+# Clone FEniCS-shells 
+
+RUN git clone https://github.com/umeenukrishnan/fenics-shell.git && \
+    cd fenics-shell && \
+    python3 setup.py install
+
+
 # Download Install gmsh
 RUN cd /usr/local && \
     wget -nc --quiet http://gmsh.info/bin/Linux/gmsh-${GMSH_VERSION}-Linux64.tgz && \
@@ -25,6 +32,9 @@ RUN pip3 install --no-cache-dir meshio==3.2.7
 RUN pip install numba
 RUN pip install scipy --upgrade
 RUN pip install sklearn
+
+
+
 WORKDIR /root
 
 ########################################
