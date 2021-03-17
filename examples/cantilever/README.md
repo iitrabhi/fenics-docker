@@ -6,7 +6,7 @@ Before selecting the type of solver you should have a prior knowledge about the 
 
 > Direct solver is equal to a Iterative solver with 1 number of iterations.
 
-In the case of a cantilever beam problem, the marixes involved are symmetric in nature. I have tested for iterative solvers to solve the problem. I am mentioning specifically about two solvers i.e., Conjugate gradient (cg) method and Generalized minimal residual method (germs). It is observed that when cg method is used the solution is obtained with only 39 number of linear solver iterations where as in the case of gmres solver it took almost 560 number of linear solver iterations. When we compare the time of computation, there was almost 10 times reduction in the overall computational time. 
+In the case of a cantilever beam problem, the matrices involved are symmetric in nature. I have tested for different iterative solvers to solve the problem. I am mentioning specifically about two solvers i.e., Conjugate gradient (cg) method and Generalized minimal residual method (germs). It is observed that when cg method is used the solution is obtained with only 39 number of linear solver iterations where as in the case of gmres solver it took almost 560 number of linear solver iterations. When we compare the time of computation, there was almost 10 times reduction in the overall computational time. 
 
  So it is very important to design the solver as per your problem type. 
 
