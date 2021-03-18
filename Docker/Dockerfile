@@ -32,7 +32,8 @@ RUN pip3 install --no-cache-dir meshio==3.2.7
 RUN pip install numba
 RUN pip install scipy --upgrade
 RUN pip install sklearn
-
+RUN pip install lxml
+RUN pip install meshx 
 
 
 WORKDIR /root
