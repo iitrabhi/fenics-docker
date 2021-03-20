@@ -1,0 +1,81 @@
+'<Parameter set "nonlinear_variational_solver" containing 6 parameter(s) and parameter set(s)>
+
+  nonlinear_variational_solver  |    type   value          range  access  change
+  ------------------------------------------------------------------------------
+  nonlinear_solver              |  string  newton  [newton,snes]       0       0
+  print_matrix                  |    bool       0        Not set       0       0
+  print_rhs                     |    bool       0        Not set       0       0
+  symmetric                     |    bool       0        Not set       0       0
+  
+  <Parameter set "newton_solver" containing 11 parameter(s) and parameter set(s)>
+  
+    newton_solver            |    type     value    range  access  change
+    ---------------------------------------------------------------------
+    absolute_tolerance       |  double  0.000000  Not set       0       0
+    convergence_criterion    |  string  residual  Not set       0       0
+    error_on_nonconvergence  |    bool         1  Not set       0       0
+    linear_solver            |  string   default  Not set       0       0
+    maximum_iterations       |     int        50  Not set       0       0
+    preconditioner           |  string   default  Not set       0       0
+    relative_tolerance       |  double  0.000000  Not set       0       0
+    relaxation_parameter     |  double   <unset>  Not set       0       0
+    report                   |    bool         1  Not set       0       0
+  
+    <Parameter set "krylov_solver" containing 8 parameter(s) and parameter set(s)>
+    
+      krylov_solver            |    type    value    range  access  change
+      --------------------------------------------------------------------
+      absolute_tolerance       |  double  <unset>  Not set       0       0
+      divergence_limit         |  double  <unset>  Not set       0       0
+      error_on_nonconvergence  |    bool  <unset>  Not set       0       0
+      maximum_iterations       |     int  <unset>  Not set       0       0
+      monitor_convergence      |    bool  <unset>  Not set       0       0
+      nonzero_initial_guess    |    bool  <unset>  Not set       0       0
+      relative_tolerance       |  double  <unset>  Not set       0       0
+      report                   |    bool  <unset>  Not set       0       0
+  
+    <Parameter set "lu_solver" containing 3 parameter(s) and parameter set(s)>
+    
+      lu_solver  |  type  value    range  access  change
+      --------------------------------------------------
+      report     |  bool      1  Not set       0       0
+      symmetric  |  bool      0  Not set       0       0
+      verbose    |  bool      0  Not set       0       0
+      
+  <Parameter set "snes_solver" containing 14 parameter(s) and parameter set(s)>
+  
+    snes_solver                   |    type     value                              range  access  change
+    ----------------------------------------------------------------------------------------------------
+    absolute_tolerance            |  double  0.000000                            Not set       0       0
+    error_on_nonconvergence       |    bool         1                            Not set       0       0
+    line_search                   |  string     basic           [basic,bt,cp,l2,nleqerr]       0       0
+    linear_solver                 |  string   default                            Not set       0       0
+    maximum_iterations            |     int        50                            Not set       0       0
+    maximum_residual_evaluations  |     int      2000                            Not set       0       0
+    method                        |  string   default                            Not set       0       0
+    preconditioner                |  string   default                            Not set       0       0
+    relative_tolerance            |  double  0.000000                            Not set       0       0
+    report                        |    bool         1                            Not set       0       0
+    sign                          |  string   default  [default,nonnegative,nonpositive]       0       0
+    solution_tolerance            |  double  0.000000                            Not set       0       0
+  
+    <Parameter set "krylov_solver" containing 8 parameter(s) and parameter set(s)>
+    
+      krylov_solver            |    type    value    range  access  change
+      --------------------------------------------------------------------
+      absolute_tolerance       |  double  <unset>  Not set       0       0
+      divergence_limit         |  double  <unset>  Not set       0       0
+      error_on_nonconvergence  |    bool  <unset>  Not set       0       0
+      maximum_iterations       |     int  <unset>  Not set       0       0
+      monitor_convergence      |    bool  <unset>  Not set       0       0
+      nonzero_initial_guess    |    bool  <unset>  Not set       0       0
+      relative_tolerance       |  double  <unset>  Not set       0       0
+      report                   |    bool  <unset>  Not set       0       0
+  
+    <Parameter set "lu_solver" containing 3 parameter(s) and parameter set(s)>
+    
+      lu_solver  |  type  value    range  access  change
+      --------------------------------------------------
+      report     |  bool      1  Not set       0       0
+      symmetric  |  bool      0  Not set       0       0
+      verbose    |  bool      0  Not set       0       0'
