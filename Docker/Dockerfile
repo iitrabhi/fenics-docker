@@ -15,6 +15,12 @@ RUN git clone https://github.com/umeenukrishnan/fenics-shell.git && \
     cd fenics-shell && \
     python3 setup.py install
 
+# Install TIGAR
+
+RUN git clone https://github.com/david-kamensky/tIGAr.git && \
+    cd tIGAr && \
+    python3 setup.py install
+
 
 # Download Install gmsh
 RUN cd /usr/local && \
