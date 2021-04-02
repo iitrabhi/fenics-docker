@@ -29,17 +29,20 @@ RUN cd /usr/local && \
 ENV PATH=/usr/local/gmsh-${GMSH_VERSION}-Linux64/bin:$PATH
 
 RUN pip install --upgrade pip
-RUN pip install sphinx
+RUN pip3 install sphinx
 
-RUN pip3 install pygmsh
+RUN pip3 install pygmsh==5.0.0
 RUN pip3 install --no-cache-dir --no-binary=h5py h5py
 RUN pip3 install --no-cache-dir meshio==3.2.7
 
-RUN pip install numba
-RUN pip install scipy --upgrade
-RUN pip install sklearn
-RUN pip install lxml
-RUN pip install meshx 
+RUN pip3 install numba
+RUN pip3 install scipy --upgrade
+RUN pip3 install sklearn
+RUN pip3 install lxml
+RUN pip3 install meshx 
+RUN pip3 install --user gmsh
+
+
 
 
 WORKDIR /root
