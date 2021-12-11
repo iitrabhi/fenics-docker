@@ -41,8 +41,8 @@ RUN pip3 install sklearn
 RUN pip3 install lxml
 RUN pip3 install meshx 
 RUN pip3 install --user gmsh
-
-
+RUN pip3 install pandas
+RUN pip3 install tabulate
 
 
 WORKDIR /root
