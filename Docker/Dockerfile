@@ -9,6 +9,8 @@ COPY .bashrc /home/fenics
 ARG GMSH_VERSION
 WORKDIR /tmp
 
+RUN apt install texlive-fonts-recommended texlive-fonts-extra
+
 # Clone FEniCS-shells 
 
 RUN git clone https://github.com/umeenukrishnan/fenics-shell.git && \
@@ -43,6 +45,7 @@ RUN pip3 install meshx
 RUN pip3 install --user gmsh
 RUN pip3 install pandas
 RUN pip3 install tabulate
+Run pip3 install svglib
 
 
 WORKDIR /root
